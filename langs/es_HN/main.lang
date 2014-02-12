@@ -1,0 +1,12 @@
+Dolibarr language file - es_HN - main
+CHARSET=UTF-8
+DIRECTION=ltr
+SeparatorDecimal=,
+SeparatorThousand=
+AmountVAT=Importe ISV
+TotalVAT=Total ISV
+IncludedVAT=ISV incluido
+HT=Sin ISV
+TTC=ISV incluido
+VAT=ISV
+VATRate=Tasa ISV

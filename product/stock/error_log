@@ -1,0 +1,2 @@
+[10-Jan-2014 08:41:42 America/Denver] PHP Warning:  Illegal string offset 'label' in /home1/itskillm/public_html/erp/product/stock/class/entrepot.class.php on line 282
+[10-Jan-2014 08:41:42 America/Denver] PHP Warning:  Illegal string offset 'code' in /home1/itskillm/public_html/erp/product/stock/class/entrepot.class.php on line 283

@@ -1,0 +1,11 @@
+﻿# Dolibarr language file - tr_TR - shop
+CHARSET=UTF-8
+Shop=Mağaza
+ShopWeb=Web Mağazası
+LastOrders=Son siparişler
+OnStandBy=Beklemede
+TreatmentInProgress=İşlemi devam ediyor
+LastCustomers=Son müşteriler
+OSCommerceShop=OSCommerce mağazası
+OSCommerce=OSCommerce
+AddProd=Çevrimiçi satış

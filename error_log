@@ -1,0 +1,6 @@
+[04-Dec-2013 13:09:52 America/Denver] PHP Fatal error:  Call to undefined method Societe::setMysoc() in /home1/itskillm/public_html/erp2/master.inc.php on line 201
+[04-Dec-2013 13:10:26 America/Denver] PHP Fatal error:  Call to undefined method Societe::setMysoc() in /home1/itskillm/public_html/erp2/master.inc.php on line 201
+[04-Dec-2013 13:10:44 America/Denver] PHP Fatal error:  Call to undefined method Societe::setMysoc() in /home1/itskillm/public_html/erp2/master.inc.php on line 201
+[04-Dec-2013 13:12:48 America/Denver] PHP Warning:  fopen(/home1/itskillm/public_html/erp2/documents/dolibarr.log): failed to open stream: No such file or directory in /home1/itskillm/public_html/erp2/core/modules/syslog/mod_syslog_file.php on line 122
+[04-Dec-2013 13:14:25 America/Denver] PHP Warning:  fopen(/home1/itskillm/public_html/erp2/documents/dolibarr.log): failed to open stream: No such file or directory in /home1/itskillm/public_html/erp2/core/modules/syslog/mod_syslog_file.php on line 122
+[04-Dec-2013 13:14:41 America/Denver] PHP Warning:  fopen(/home1/itskillm/public_html/erp2/documents/dolibarr.log): failed to open stream: No such file or directory in /home1/itskillm/public_html/erp2/core/modules/syslog/mod_syslog_file.php on line 122

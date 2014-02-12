@@ -1,0 +1,59 @@
+/*  
+* Dolibarr language file - ecm
+* Language code: el_GR
+* Manually translated by technicks.eu
+*/
+CHARSET = UTF-8
+MenuECM = Έγγραφα
+DocsMine = Τα Έγγραφά Μου
+DocsGenerated = Τα έγγραφα που δημιουργούνται
+DocsElements = Στοιχεία εγγράφων
+DocsThirdParties = Έγγραφά στοιχείων
+DocsContracts = Έγγραφα συμβάσεων
+DocsProposals = Έγγραφα προτάσεων
+DocsOrders = Έγγραφα παραγγελιών
+DocsInvoices = Έγγραφα τιμολογίων
+ECMNbOfDocs = Αριθμός εγγράφων στον κατάλογο
+ECMNbOfDocsSmall = Αριθμός έγγρ..
+ECMSection = Κατάλογος
+ECMSectionManual = Χειροκίνητος κατάλογος
+ECMSectionAuto = Αυτόματος κατάλογος
+ECMSectionsManual = Manual tree
+ECMSectionsAuto = Αυτόματο tree
+ECMSections = Φάκελοι
+ECMRoot = Root
+ECMNewSection = Νέος Φάκελος
+ECMAddSection = Προσθήκη Φακέλου
+ECMNewDocument = Νέο Έγγραφο
+ECMCreationDate = Ημερομηνία Δημιουργίας
+ECMNbOfFilesInDir = Αριθμός αρχείων στον κατάλογο
+ECMNbOfSubDir = Αριθμός υποκαταλόγων
+ECMNbOfFilesInSubDir = Αριθμός αρχείων σε υποκαταλόγους
+ECMCreationUser = Δημιουργός
+ECMArea = ECM area
+ECMAreaDesc = Η ECM (Ηλεκτρονική Διαχείρισης Περιεχομένου) περιοχή σας επιτρέπει να αποθηκεύετε, να μοιράζεστε και να αναζητήσετε γρήγορα όλα τα είδη των εγγράφων του Dolibarr.
+ECMAreaDesc2 = * Οι αυτόματοι κατάλογοι συμπληρώνονται αυτόματα κατά την προσθήκη εγγράφων από την κάρτα ενός στοιχείου.<br>* Χειροκίνητος καταλόγους μπορεί να χρησιμοποιηθεί για την αποθήκευση εγγράφων που δεν συνδέονται με ένα συγκεκριμένο στοιχείο.
+ECMSectionWasRemoved = Ο Κατάλογος <b>%s</b> έχει διαγραφεί.
+ECMDocumentsSection = Έγγραφο του καταλόγου
+ECMSearchByKeywords = Αναζήτηση με λέξεις-κλειδιά
+ECMSearchByEntity = Αναζήτηση με αντικείμενο
+ECMSectionOfDocuments = Κατάλογοι των εγγράφων
+ECMTypeManual = Χειροκίνητα
+ECMTypeAuto = Αυτόματα
+ECMDocsBySocialContributions = Τα έγγραφα που συνδέονται με τις κοινωνικές εισφορές
+ECMDocsByThirdParties = Έγγραφα συνδεδεμένα με Πελ./Προμ.
+ECMDocsByProposals = Έγγραφα που σχετίζονται με τις προτάσεις
+ECMDocsByOrders = Έγγραφα συνδεδεμένα με παραγγελίες πελατών
+ECMDocsByContracts = Έγγραφα συνδεδεμένα με συμβόλαια
+ECMDocsByInvoices = Έγγραφα συνδεδεμένα με τιμολόγια πελατών
+ECMDocsByProducts = Έγγραφα συνδεδεμένα με προϊόντα
+ECMDocsByProjects = Έγγραφα που συνδέονται με έργα
+ECMNoDirectoryYet = Δεν δημιουργήθηκε φάκελος
+ShowECMSection = Εμφάνιση φακέλου
+DeleteSection = Διαγραφή φακέλου
+ConfirmDeleteSection = Επιβεβαιώνετε ότι θέλετε να διαγράψετε τον κατάλογο <b>%s</b> ;
+ECMDirectoryForFiles = Σχετικός κατάλογος για τα αρχεία
+CannotRemoveDirectoryContainsFiles = Η διαγραφή δεν είναι δυνατή, διότι περιέχει κάποια αρχεία
+ECMFileManager = Διαχειριστής Αρχείων
+ECMSelectASection = Επιλέξτε ένα φάκελο στο αριστερό tree...
+DirNotSynchronizedSyncFirst = This directory seems to be created or modified outside ECM module. You must click on "Refresh" button first to synchronize disk and database to get content of this directory.

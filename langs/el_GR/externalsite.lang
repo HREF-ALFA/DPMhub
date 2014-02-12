@@ -1,0 +1,9 @@
+/*  
+* Dolibarr language file - externalsite
+* Language code: el_GR
+* Manually translated by technicks.eu
+*/
+CHARSET = UTF-8
+ExternalSiteSetup = Ρύθμιση συνδέσμου σε εξωτερικό website
+ExternalSiteURL = Εξωτερικές διεύθυνσης URL ιστοσελίδας
+ExternalSiteModuleNotComplete = Η ενότητα Εξωτερικά Site δεν έχει ρυθμιστεί σωστά.
