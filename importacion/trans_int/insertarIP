@@ -55,7 +55,7 @@ $res = mysql_query($que, $link) or die(mysql_error());
 
 
 
-// Cerrar conexión a la Base de Datos 
+// Cerrar conexión a la Base de Datos s
 mysql_close($link); 
 
 
