@@ -1,0 +1,67 @@
+<html> 
+
+<body> 
+<?php 
+header('Location: datosE.php');
+
+//print '<form name="add" action="fiche.php" method="post">';
+
+include_once ('../../conf/conf.php');
+
+//Conectarse y seleccionar base de datos 
+$link = mysql_connect('localhost','root','root'); 
+if (!$link) { 
+die('Could not connect: ' . mysql_error()); 
+} 
+echo 'Conexiòn Exitòsa =D';
+
+
+$db_selected = mysql_select_db('dolibarr', $link); 
+if (!$db_selected) { 
+die ('Cant use tarea : ' . mysql_error()); 
+} 
+
+
+
+
+
+
+// Tomar los campos provenientes del Formulario 
+$r_transito = $_POST['r_trancito']; 
+$r_transportista = $_POST['r_transportista']; 
+$transportista = $_POST['transportista'];
+$auto_s = $_POST['auto_s'];
+$fecha_e = $_POST['ech'];
+$eta = $_POST['ech'];  
+$num_guia = $_POST['num_guia']; 
+$pais_o = $_POST['country_id'];
+$frontera = $_POST['front_id'];
+$notapu = $_POST['note_public'];
+$notapri = $_POST['note_private'];
+$numero=$_POST["numero"];
+$medio_em = $_POST['trans'];
+
+
+// Insertar campos en la Base de Datos 
+$que = "INSERT INTO llx_transit_international(r_trans_int, llx_transport_id, transportista, autor_solicitante, fecha_embarque, eta, guia, pais_origen, frontera_dest, nota_pu, nota_pri, estatus, medio_embarque, pestana) "; 
+
+// Pestaña 1
+$que.= "VALUES ('".$r_transito."', '".$r_transportista."','".$transportista."','".$auto_s."','".$fecha_e."','".$eta."','".$num_guia."','".$pais_o."','".$frontera."','".$notapu."','".$notapri."','".$numero."','".$medio_em."', '.1.') "; 
+
+
+
+$res = mysql_query($que, $link) or die(mysql_error()); 
+
+
+
+
+// Cerrar conexión a la Base de Datos 
+mysql_close($link); 
+
+
+print "</form>\n";
+
+?> 
+</body> 
+
+</html> 
